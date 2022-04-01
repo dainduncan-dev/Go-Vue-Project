@@ -26,7 +26,7 @@ type objectsJson struct {
 func getName(c echo.Context) error {
     fmt.Println("Parsing YAML File")
 
-    var fileName string = `C:\Users\ddnkn\Desktop\taubyteGoVueAssessment\objects\object1.yaml`
+    var fileName string = `C:\Users\ddnkn\Desktop\GoVueAssessment\objects\object1.yaml`
 
     yamlFile, err := ioutil.ReadFile(fileName)
     if err != nil {
@@ -44,7 +44,7 @@ func getName(c echo.Context) error {
 
     jsonOutput, err := json.Marshal(objJson)
       c.JSON(http.StatusOK, objJson)
-    err = ioutil.WriteFile(`C:\Users\ddnkn\Desktop\taubyteGoVueAssessment\objects\object1.json`, jsonOutput, 0644)
+    err = ioutil.WriteFile(`C:\Users\ddnkn\Desktop\GoVueAssessment\objects\object1.json`, jsonOutput, 0644)
 
     return err
 }

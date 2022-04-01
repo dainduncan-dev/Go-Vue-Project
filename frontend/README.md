@@ -1,4 +1,4 @@
-# taubyte-assessment-frontend
+# frontend
 
 ## Project setup
 ```
