@@ -1,4 +1,4 @@
-# Taubyte-Assessment
+# Go, Vue Project
 
 Built with blood sweat and tears.
 
@@ -6,7 +6,7 @@ Future updates include figuring out how to make the filename dynamic!
 
 ## Description
 
-Taubyte Assessment using Golang, Echo, goyaml, and Vue.
+Golang, Echo, goyaml, and Vue project.
 
 ## Getting Started
 
