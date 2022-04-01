@@ -1,4 +1,4 @@
-module github.com/dainduncan-dev/Taubyte-Assessment.git/taubyteGoVueAssessment
+module github.com/dainduncan-dev/Go-Vue-Project.git/GoVueAssessment
 
 go 1.18
 
